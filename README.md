@@ -30,7 +30,7 @@ The project uses CMake for cross-platform building and automatically pulls rayli
 1. **Clone the repository:**
    ```bash
    git clone https://github.com/IB1aZe/simple-raylib-tetris
-   cd raylib-tetris
+   cd simple-raylib-tetris
    ```
 
 2. **Create a build directory and run CMake:**
@@ -52,7 +52,7 @@ If you already have raylib installed, set `CMAKE_PREFIX_PATH` or disable fetchin
 ## Dependencies
 
 - C++ compiler (e.g., MSVC, gcc, clang)
-- CMake 3.15+
+- CMake 3.11+
 - raylib (fetched automatically via FetchContent)
 
 ## Gameplay
